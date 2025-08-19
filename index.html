@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>B&Y | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="full stack developer , django and react" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Boualam & Yacine Full Stack Developers" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/BY.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="B&Y| Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Boualam | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content=""
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content=""
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+      <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="./assets/BY.png" alt="B&Y Logo" />
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, we are <span class="text-color-main name">Boualam & Yacine</span>
+          <br />
+          Software Engineers crafting reliable web solutions.
+        </h1>
+        <p class="hero-subtitle">
+          We specialize in building modern applications with <strong>Django</strong> and <strong>React</strong>, 
+          delivering clean code, scalable backends, and smooth user experiences.
+        </p>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Us</h2>
+    
+    <div class="about-intro">
+      <p class="about-intro__text">
+        We are <strong>Boualam</strong> and <strong>Yacine</strong>, two passionate Software Engineers who enjoy solving real-world problems with code. 
+        With a strong focus on <strong>Django</strong> and <strong>React</strong>, we build reliable backends, scalable APIs, and smooth user interfaces.
+      </p>
+      <p class="about-intro__text">
+        Our journey started with freelance projects where we delivered <em>e-commerce APIs, task automation tools, and custom web apps</em>. 
+        What sets us apart is our dedication to clean code, teamwork, and a constant drive to learn and improve.
+      </p>
+    </div>
+
+    <div class="team-profiles">
+      <!-- Profile 1 -->
+      <div class="profile-card">
+        <div class="profile-card__image">
+          <img src="./assets/boualam_profile.jpeg" alt="Boualam - Software Engineer" width="300" height="300">
+        </div>
+        <div class="profile-card__content">
+          <h3 class="profile-card__name">Boualam</h3>
+          <p class="profile-card__title">Full-Stack Software Developer</p>
+          <p class="profile-card__bio">
+            I’m a full-stack developer specializing in <strong>Django</strong> and 
+            <strong>React</strong>. Over the past few years, I’ve worked on 
+            <em>e-commerce APIs, task automation tools, and custom web apps</em> for clients, 
+            always focusing on writing clean, scalable code. I enjoy tackling backend challenges, 
+            while also building smooth user experiences on the frontend.
+          </p>
+          <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+        </div>
+      </div>
+
+      <!-- Profile 2 -->
+      <div class="profile-card">
+        <div class="profile-card__image">
+          <img src="./assets/yacine_profile.png" alt="Yacine - Software Engineer" width="300" height="300">
+        </div>
+      <div class="profile-card__content">
+        <h3 class="profile-card__name">Yacine</h3>
+        <p class="profile-card__title">Software Engineer</p>
+        <p class="profile-card__bio">
+          I’m Yacine, a software engineer focused on <strong>backend development</strong> 
+          with <strong>Django</strong> and <strong>Python</strong>. I have hands-on 
+          experience integrating <em>REST APIs, payment systems, external tools, and chatbots</em>.  
+          Problem-solving is what drives me, and I strive to keep learning and improving every day, 
+          even if it’s just one step forward. My goal is always to deliver reliable solutions 
+          that meet real needs while staying passionate about the craft.
+        </p>
+        <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- /END About Section -->
+
+<!--Projects Section-->
+<section id="projects">
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">Projects</h2>
+
+
+      <article class="row">
+      <div class="project-wrapper__text">
+        <h3 class="project-wrapper__text-title">Aloha-Limos Travel Platform</h3>
+        <p class="project-wrapper__text-info">
+          A premium transportation service platform offering <strong>personalized travel solutions</strong>.
+          Features include professional driver management, fixed-price quotes, and safety-focused service.
+          Designed for both passenger comfort and secure shipment transportation.
+        </p>
+        <p class="project-wrapper__text-info">
+          <strong>Key Features:</strong> Real-time booking, price transparency, private travel options, quality assurance
+        </p>
+        <p class="project-wrapper__text-info">
+          <strong>Stack:</strong> React, Node.js, Django , PostgreSQL Google Maps API, Stripe
+        </p>
+        <div class="project-wrapper__text-btns">
+          <a href="https://deploy-preview-38--alohalimodev.netlify.app" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+          <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+        </div>
+      </div>
+      <div class="project-wrapper__image">
+        <div class="thumbnail rounded">
+          <img src="./assets/Reservation.png" class="img-fluid" alt="Aloha-Limos transportation service interface" width="1366" height="767"/>
+        </div>
+      </div>
+    </article>
+      <!-- Project 1 -->
+      <article class="row">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">Sales Management System</h3>
+          <p class="project-wrapper__text-info">
+            A full-featured dashboard for tracking sales performance, built with <strong>React and Node.js</strong>.
+            Includes lead management, real-time analytics, and reporting tools.
+            Designed to help sales teams monitor pipelines and close deals faster.
+          </p>
+          <p class="project-wrapper__text-info">
+            <strong>Stack:</strong> React, Redux, Node.js, MongoDB, Chart.js
+          </p>
+          <div class="project-wrapper__text-btns">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+            <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+          </div>
+        </div>
+        <div class="project-wrapper__image">
+          <div class="thumbnail rounded">
+            <img src="./assets/SalesPulse.png" class="img-fluid" alt="Sales Management Dashboard" width="1366" height="767"/>
+          </div>
+        </div>
+    </article>
+
+    <article class="row">
+      <div class="project-wrapper__text">
+        <h3 class="project-wrapper__text-title">Digital Marketplace</h3>
+        <p class="project-wrapper__text-info">
+          A full-stack e-commerce platform for digital products with <strong>instant delivery</strong>.
+          Features PayPal payments, WhatsApp notifications, and automated email follow-ups.
+          Includes admin dashboard for product management and sales analytics.
+        </p>
+        <p class="project-wrapper__text-info">
+          <strong>Stack:</strong> React , Nextjs , PHP and Wordpress
+        </p>
+        <div class="project-wrapper__text-btns">
+          <a href="https://keymasterhub.com" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+          <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+        </div>
+      </div>
+      <div class="project-wrapper__image">
+        <div class="thumbnail rounded">
+          <img src="./assets/Keymasterhub.png" class="img-fluid" alt="Digital Products Store" width="1366" height="767"/>
+        </div>
+      </div>
+    </article>
+          <!-- /END Project -->
+
+<article class="row">
+  <div class="project-wrapper__text">
+    <h3 class="project-wrapper__text-title">E-Commerce REST API</h3>
+    <p class="project-wrapper__text-info">
+      A professional REST API for e-commerce management including user authentication, product/category management, 
+      order processing, and shipment tracking system. Built with <strong>Django REST Framework</strong> for scalability 
+      and maintainability.
+    </p>
+    <p class="project-wrapper__text-info">
+      <strong>Key Features:</strong> JWT authentication, product catalog with images/descriptions, 
+      order status tracking (processing/shipped/completed)
+    </p>
+    <p class="project-wrapper__text-info">
+      <strong>Stack:</strong> Django, DRF, PostgreSQL, JWT, Docker
+    </p>
+    <div class="project-wrapper__text-btns">
+      <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+      <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+    </div>
+  </div>
+  <div class="project-wrapper__image">
+    <div class="thumbnail rounded">
+      <img src="./assets/RestAPISwagger.png" class="img-fluid" alt="E-Commerce API documentation screenshot" width="1366" height="767"/>
+    </div>
+  </div>
+</article>
+
+      <!-- Project 3 -->
+      <article class="row">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">Instagram Scraper Tool</h3>
+          <p class="project-wrapper__text-info">
+            A desktop tool that automates data collection from Instagram using <strong>React & Python</strong>.
+            Supports session persistence, CSV export, and video downloading. 
+            Designed for digital marketers to gather insights more efficiently.
+          </p>
+          <p class="project-wrapper__text-info">
+            <strong>Stack:</strong> Python, Playwright, PythonNiceGUI, Pandas
+          </p>
+          <div class="project-wrapper__text-btns">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+            <a href="#" target="_blank" class="cta-btn text-color-main">Source Code</a>
+          </div>
+        </div>
+        <div class="project-wrapper__image">
+          <div class="thumbnail rounded">
+            <img src="./assets/IgScraper.png" class="img-fluid" alt="Instagram Scraper Tool" width="1366" height="767"/>
+          </div>
+        </div>
+      </article>
+      <!-- /END Project -->
+
+    </div>
+  </div>
+</section>
+    <!-- End Projects Section -->
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper">
+      <p class="contact-wrapper__text">
+        Interested in working together or have a project in mind? 
+        Feel free to reach out — I’d love to connect!
+      </p>
+      <a href="mailto:boualambourahla@gmail.com" class="cta-btn cta-btn--resume">
+        Send me an Email
+      </a>
+
+    </div>
+  </div>
+</section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> 
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
